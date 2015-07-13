@@ -1,0 +1,496 @@
+/*
+ Theme Name:   CB.Graphics Theme
+ Theme URI:    
+ Description:  Sequential Child Theme
+ Author:       CB.Graphics Company
+ Author URI:   http://www.cbgraphics.net
+ Template:     sequential
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: light, white, two-columns, right-sidebar, responsive-layout, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+ Text Domain:  sequential-child
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100italic,400italic,500,500italic,100);
+
+/*----------Universal Styles-----------*/
+
+/* Buttons */
+a.button,
+a.button-minimal {
+	display: inline-block;
+  	padding: 20px 40px;
+	font: #58595b 24px 'Roboto', Helvetica, Arial, sanserif;
+	font-weight: bold;
+	letter-spacing: 0.0625em;
+	text-transform: none;
+	border-style: solid;
+  	border-width: 5px;
+  	border-color: rgb(255, 255, 255);
+  	border-radius: 0px;
+	background: #adf1e4;
+	color: #fff;
+	text-shadow: none;
+}
+a.button:hover,
+a.button:focus,
+a.button:active {
+	background: #adf1e4;
+	color: #fff;
+}
+a.button-minimal {
+	padding: 9px 21px;
+	border: 3px solid #adf1e4;
+	color: #adf1e4;
+}
+a.button-minimal:hover,
+a.button-minimal:focus,
+a.button-minimal:active {
+	background: #adf1e4;
+	color: #fff;
+}
+
+* { padding: 0; margin: 0; }
+
+/*Typography*/
+
+html {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: #686868;
+	font-family: "Roboto", Arial, sans-serif;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: #58595b;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	margin: 0 auto 12px;
+	font-size: 1.875em;
+	line-height: 1.333334em;
+	color: #ef9120;
+	font-weight: 400;
+}
+
+h2 {
+  color: #58595b;
+  font-size: 1.500em;
+  font-weight: 400;
+}
+
+h3 {
+	font-size: 1em;
+	color: #4ac0ad;
+}
+
+
+/*Links*/
+
+a {
+	border-bottom: 1px solid #4ac0ad;
+	color: #4ac0ad;
+	font-weight: inherit;
+	text-decoration: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	display: inline-block;
+  	padding: 20px 40px;
+	font: #58595b 24px 'Roboto', Helvetica, Arial, sanserif;
+	font-weight: bold;
+	letter-spacing: 0.0625em;
+	text-transform: none;
+	border-style: solid;
+  	border-width: 5px;
+  	border-color: #f1f2f2;
+  	border-radius: 0px;
+  	background: #ef9120;
+	text-shadow: none;
+
+}
+
+
+
+/*----------Front Page Styles----------*/
+
+
+#front-page { 
+  background: url(img/cbgraphicsstartuplandingpagebackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  background-color: #ef9120;
+}
+
+body#front-page {
+	background: none;
+}
+
+#front-page.content-area {
+	background: #FFFFFF;
+	padding: 20px 40px;
+	text-align: center;
+	max-width: 700px;
+	width: 70%;
+	clear: both;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 175px;
+	max-height: 225px;
+}
+
+#front-page-cta {
+	position: relative;
+	top: 40px;
+	color: #686868;
+	font-weight: 100;
+	font-size: 1.25em;
+	letter-spacing: 70%;
+}
+
+#front-page p {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#front-page article {
+	margin-bottom: 0;
+}
+
+.site-footer-front-page {
+   position: fixed;
+   bottom: 10px;
+   width:100%;
+   background:none;
+}
+
+p.site-footer-front-page {
+	color: #FFFFFF;
+}
+
+.front-page-bottom-content {
+	color: #FFFFFF;
+	padding-top: 100px;
+	max-width: 900px;
+}
+
+
+.verticalmainTable {
+	border: none;
+}
+
+.verticalmainTable td {
+	border: none;
+	padding: 0 0 0 0;
+}
+
+.verticalmainTable img {
+	width: 70% !important;
+	max-width: 700px;
+	height: auto !important;
+}
+
+.verticalmainTable table tr td ul li {
+	width: 70% !important;
+	max-width: 700px;
+	height: 77px !important;
+}
+
+li.sliderimgLiVertical {
+	width: 70% !important;
+	max-width: 700px;
+	height: 77px !important;
+}
+
+.sliderimgLiVertical img {
+	border: none !important;
+	width: 70%;
+	height: auto !important;
+}
+
+.sliderimgLiVertical li {
+	border: none !important;
+	width: 70%;
+	height: auto !important;
+}
+
+.sliderimgLiVertical {
+	width: 70% !important;
+}
+
+/*--------About Page---------*/
+
+#about-page {
+	background: url(img/orangetexturebackground.jpg) repeat ;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+
+#about-page h1 {
+	color: #FFFFFF;
+}
+
+#about-page p {
+	color: #FFFFFF;
+}
+
+#about-page article {
+	width: 45%;
+	float: left;
+	padding: 50px;
+}
+
+img.about-page {
+	width: 50%;
+	float: right;
+}
+
+
+
+article#staff-profiles {
+	background: #f1f2f2;
+	border-bottom: #58595b 1px solid;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	width: 100%;
+}
+
+#staff-profiles h2 {
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+
+#staff-profiles h3 {
+	margin: 0;
+}
+
+#staff-profiles p {
+	color: #58595b;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+#staff-profiles a {
+	color: #58595b;
+	text-decoration: none;
+}
+
+#staff-profiles a:hover {
+	border-bottom: 1px solid #4ac0ad;
+	color: #4ac0ad;
+}
+/*----------Header----------*/
+
+.site-header {
+	background: none;
+	border: none;
+	padding: 0 0 24px 0;
+	margin: auto;
+}
+
+body:not(.full-width-layout):not(.no-sidebar) .site-header, body:not(.full-width-layout):not(.no-sidebar) .site-content {
+	border-bottom: none;
+}
+
+body:not(.menu-left) .site-branding {
+		padding-right: 0;
+	}
+
+.site-branding {
+	float: none;
+	padding-right: 0;
+}
+
+img.front-page-logo {
+	display: block;
+	margin: auto;
+	padding: 0;
+}
+
+img.header-image {
+	clear: both;
+	display: block;
+	margin: auto;
+}
+
+/*-------Footer--------*/
+
+.footer-navigation {
+	background-color: #f1f2f2;
+}
+
+.footer-navigation a {
+	color: #58595b;
+}
+
+
+/*----------Navigation----------*/
+
+.menu-primary {
+	background-color: #f1f2f2;
+	border-color: #acacac;
+	border: 1px;
+	border-radius: 0px;
+}
+
+.main-navigation {
+	background-color: #f1f2f2;
+	padding: 5px 20px;
+	width: 100%;
+}
+
+.main-navigation ul {
+	background-color: #f1f2f2;
+	clear: both;
+	float: left;
+}
+
+.main-navigation li {
+	border: none;
+}
+
+.main-navigation a {
+	color: #58595b;
+}
+
+.menu-left .main-navigation {
+	margin-left: 0;
+}
+
+
+/*----------Sidebar----------*/
+
+/*Twitter Widget*/
+.twiget-feed li {
+	list-style: none;
+}
+
+/*Posts and Pages*/
+
+.post-thumbnail img {
+	display: block;
+	margin: auto;
+}
+
+.entry-footer,
+.entry-meta {
+	color: #4ac0ad;
+	font-size: 0.875em;
+	font-weight: 100;
+	line-height: 1.71429em;
+	text-transform: none;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+16.0 Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+16.1 x <= 450px
+--------------------------------------------------------------*/
+@media screen and (max-width: 450px) {
+
+	.front-page-logo {
+	width: 200px;
+	height: auto;
+	}
+
+	.header-image {
+	width: 200px;
+	height: auto;
+	}
+
+	img.about-page {
+	width: 100%;
+	clear: both;
+	}
+
+	#about-page article {
+	width: 100%;
+	float: left;
+	}
+
+	.site-footer-front-page {
+	   position: absolute;
+	   bottom: auto;
+	}
+
+}
+
+/*--------------------------------------------------------------
+16.1 x >= 600px
+--------------------------------------------------------------*/
+@media screen and (min-width: 600px) {
+
+
+
+}
+
+/*--------------------------------------------------------------
+16.2 x >= 768px
+--------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+
+
+}
+
+/*--------------------------------------------------------------
+16.3 x >= 1020px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1020px) {
+
+
+
+	body:not(.menu-left) .site-branding {
+		padding-right: 0;
+	}
+
+	.main-navigation {
+		margin-right: 0;
+	}
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+16.4 x >= 1230
+--------------------------------------------------------------*/
+@media screen and (min-width: 1230px) {
+
+
+	.site-branding {
+	float: none;
+	padding-right: 0;
+	}
+}
